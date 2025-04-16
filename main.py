@@ -1,7 +1,7 @@
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_ollama.llms import OllamaLLM
 import os
-from docx import Document
+from docx import Document 
 from docx2pdf import convert
 
 template = """Question: {question}
