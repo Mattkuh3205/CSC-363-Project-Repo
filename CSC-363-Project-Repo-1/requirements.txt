@@ -1,0 +1,4 @@
+langchain-core
+langchain-ollama
+python-docx
+docx2pdf
