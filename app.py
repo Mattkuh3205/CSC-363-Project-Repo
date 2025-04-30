@@ -3,6 +3,7 @@ from langchain_openai import ChatOpenAI
 from docx import Document 
 from docx2pdf import convert
 import PyPDF2
+
 import io
 import os
 
@@ -79,9 +80,12 @@ Instructions:
 - Keep it to one page
 - Make it professional and well-organized
 - Use realistic but fictional details
+- DO NOT INCLUDE ANYTHING ELSE THAN THE RESUME
+- Ensure that there is no other text saying markdown or anything else
 """
                 # Generate resume
-                response = llm.invoke(prompt)
+                response = llm.invoke(prompt).content
+                
                 generated_resume = str(response) if response else ""
 
                 # Save as Markdown

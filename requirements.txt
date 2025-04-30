@@ -5,3 +5,4 @@ docx2pdf
 flask
 langchain-openai
 PyPDF2
+openai
