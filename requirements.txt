@@ -2,3 +2,6 @@ langchain-core
 langchain-ollama
 python-docx
 docx2pdf
+flask
+langchain-openai
+PyPDF2
