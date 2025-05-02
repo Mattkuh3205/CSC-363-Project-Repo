@@ -13,3 +13,9 @@ It will then generate the files: resume.docx, resume.md and resume.pdf.
 
 
 Website is: https://csc-363-project-final.onrender.com/
+
+OpenAI models, used for easier deployment as we would not have to setup a cloud based server, model can be changed to use ollama models, example in main.py.
+
+you would first import ```from langchain_ollama.llms import OllamaLLM```
+
+Then change the llm variable that references OpenAI to, ```model = OllamaLLM(model="llama3.1")```
