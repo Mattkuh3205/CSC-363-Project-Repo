@@ -19,3 +19,5 @@ OpenAI models, used for easier deployment as we would not have to setup a cloud 
 you would first import ```from langchain_ollama.llms import OllamaLLM```
 
 Then change the llm variable that references OpenAI to, ```model = OllamaLLM(model="llama3.1")```
+
+Change .env_example to a .env file and then add your openai key if not using ollama option for llm
