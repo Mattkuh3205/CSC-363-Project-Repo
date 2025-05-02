@@ -10,3 +10,6 @@
 5. Then run ```python main.py```
 
 It will then generate the files: resume.docx, resume.md and resume.pdf.
+
+
+Website is: https://csc-363-project-final.onrender.com/
