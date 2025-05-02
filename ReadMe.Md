@@ -7,7 +7,7 @@
 
 4. Go to terminal, and run ```pip install -r requirements.txt```
 
-5. Then run ```python main.py```
+5. Then run ```python app.py```
 
 It will then generate the files: resume.docx, resume.md and resume.pdf.
 
